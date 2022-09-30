@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px ;
+    background-color: #FDB515;
+    color: white;
+    border: 2px solid white;
+}
+.menu-btn {
+    display: none;
+}
+.nav-items li {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.nav-items li a, .nav-items li i {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+.landing{
+    background-image: url(img1.jpeg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1034px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoname {
+    display: flex;
+    align-items: center;
+}
+.logoname img {
+    height: 60px;
+    margin-right: 20px;
+}
+.intro {
+    background-color: white;
+    width: 1140px;
+    height: 261px;
+    text-align: center;
+    padding: 10px;
+}
+.intro h1 {
+    font-size: 70px;
+}
+.intro h1 span {
+    color: #EE3E2F;
+} 
+.intro small {
+    font-size: 17px;
+}
+.landing button {
+    height: 60px;
+    width: 200px;
+    margin: 50px;
+    background-color: #FDB515;
+    border: none;
+}
+.landing button a {
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin: 50px;
+    color: white;
+}
+.whoimage img{
+    width: 680px;
+    height: 520px;
+    margin-left: 30px;
+}
+.whotext {
+    padding: 8px;
+    padding-left: 80px;
+    height: 505px;
+    background-color: black;
+    /* flex-basis: 50%; */
+}
+.whotext strong {
+    font-size: 32px;
+    font-style: normal;
+    font-family: Rufina;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin: 0 0 10px;
+}
+.whotext p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+.about button {
+    width: 120px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.about button a {
+    color: white;
+    text-decoration: none;
+}
+.about button:hover {
+    background-color: #FDB515;
+}
+#services {
+    margin: 50px 150px;
+}
+#services strong {
+    color: #EE3E2F;
+    font-weight: 800;
+}
+#services p {
+    font-size: 18px;
+}
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 280px 280px 280px;
+    margin: 50px;
+    gap: 20px;
+    height: 600px;
+}
+.griditem {
+    background-color: white;
+     box-shadow: lightgray 1px 1px 1px 1px;
+}
+.griditem img {
+    width: 314px;
+    height: 210px;
+}
+.griditem span {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+.sm-links {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.sm {
+    display: flex;
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #EE3E2F;
+}
+.sm i {
+    color: black;
+}
+footer {
+    background-color: #FDB515;
+    padding: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 50px 150px;
+}
+.row1, .row2 {
+    flex-basis: 50%;
+}
+.row1 {
+    width: 272px;
+}
+.row1 h2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin-bottom: 10px;
+    max-width: 40em;
+}
+.row1 p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    
+}
+.row1 strong {
+    color: #EE3E2F;
+}
+.cmm textarea {
+    padding-left: 10px;
+    height: 100px;
+    width: 470px;
+    margin-bottom: 12px;
+}
+.form input, .form button {
+    width: 470px;
+    height: 40.5px;
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+.form button {
+    background-color: #EE3E2F;
+    border: none;
+    padding-right: 5px;
+    margin-top: 12px;
+}
+.form button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+footer span {
+    display: block;
+    text-align: center;
+}
+@media only screen and (max-width:834px) {
+
+    body {
+        width: 100%;
+        font-family: 'Rufina', serif;
+        overflow-x: hidden;
+    }
+    .menu-btn {
+        display: block;
+        width: 60px;
+    }
+    .navbar {
+        padding: 10px 20px;
+    }
+    .navbar img {
+        width: 60px;
+        height: 60px;
+    }
+    .nav-items {
+        display: none;
+    }
+    .landing{
+        background-image: url(img1.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro {
+        height: 50px;
+        background: transparent;
+    }
+    .intro h1 {
+        font-size: 18px;
+    }
+    .intro p {
+        font-size: 24px;
+    }
+    .landing button {
+        margin: 20px;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        margin: 50px;
+        color: white;
+    }
+    .whoimage img {
+        width: 360px;
+        height: 300px;
+        margin: 0;
+        padding-left:7px;
+        margin-right: 20px;
+    }
+    .whotext {
+        width: 354.2px;
+        height: 420px;
+        padding: 10px;
+    }
+    .whotext strong {
+        font-size: 20px;
+    }
+    .whotext p {
+        font-size: 14px;
+    }
+    #services {
+        margin: 10px;
+    }
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 145px 145px;
+        grid-template-rows: 200px 200px;
+        gap: 20px;
+        margin: 22px;
+    }
+    .griditem {
+        text-align: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .griditem img {
+        width: 145px;
+        height: 150px;
+    }
+    .griditem span {
+        font-size: 12px;
+        padding: 0;
+        text-align: center;
+    }
+    footer {
+        margin-top: 50px;
+    }
+    .sm-links {
+        display: none;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .row1 h2 {
+        font-size: 24px;
+    }
+    .row1 p {
+        font-size: 16px;
+    }
+    .form input, .form label, .form textarea, .form button {
+        margin-left: 10px;
+    }
+    .form input, .form button{
+        width: 250px;
+        height: 30px;
+        border: none;
+        padding-left: 10px;
+    }
+    .row1 br {
+        display: none;
+    }
+    .form input :hover {
+        border: 1px dashed black;
+    }
+    .form textarea {
+        width: 260px;
+        height: 60px;
+    }
+    footer span {
+        font-size: 14px;
+    } 
+    .about {
+        transform: translateX(-50px);
+        width: 304.2px;
+    }
+}
+
